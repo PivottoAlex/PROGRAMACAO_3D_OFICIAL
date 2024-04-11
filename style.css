@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 :root{
-    --cor-de-fundo: #101112;
-    --verde: #10fbec;
+    --cor-de-fundo: #1E1E1E;
+    --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -85,10 +85,12 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
+
 .contador{
     font-size: 20px;
     text-align: center;
 }
+ 
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
